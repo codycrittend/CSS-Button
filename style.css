@@ -1,0 +1,38 @@
+html{
+	font-family: 'Fredoka One', cursive;
+}
+
+a{
+  color: white;
+	text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+p{
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+	border-radius: 8px;
+  line-height: 3.4;
+  font-size: 1.125rem;
+  /* 1 rem is 16 px, therefore I increased it to be around 17px*/
+  background: linear-gradient(to top left, rgba(0,0,0,0.3),
+  rgba(0,0,0,0.3)30%, rgba(0,0,0,0));
+  background-color: #3c4d78;
+	border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+p:hover {
+  text-decoration: none;
+  background-color:#de6626;
+  border:1px solid black;
+}
